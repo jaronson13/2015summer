@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436738713 source:c:\users\jesse\desktop\programmingsummer2015\countlines\main.cpp
+	<string>
+	<iostream>
+	<fstream>
+
