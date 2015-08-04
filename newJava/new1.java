@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 class newClass {
+	public static int addFive(int num)
+	{
+		num = num + 5;
+		return num;
+	}
 	public static void main(String args[]) 
 	{
 		Scanner myScanner = new Scanner(System.in);
@@ -19,5 +24,10 @@ class newClass {
 		{
 			System.out.print(i);
 		}
+		
+		System.out.println("");
+		
+		int addMe = 5;
+		System.out.print(addFive(addMe));
 	}
 }
